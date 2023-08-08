@@ -10,6 +10,8 @@ class Game extends Phaser.Scene {
     }
     create() {
    this.add.image(100,100 ,"tiles")
+   this.add.image(200,200 ,"tiles2")
+
         console.log("ENTRO")
      
     }

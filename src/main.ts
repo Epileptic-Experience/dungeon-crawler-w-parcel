@@ -10,7 +10,7 @@ const config = {
     scale: {
         mode: window.Phaser.Scale.FIT
     },
-    scene: [Preloader, Game],
+    scene: [Preloader,Game],
     physics: {
         default: "arcade",
         arcade: {
